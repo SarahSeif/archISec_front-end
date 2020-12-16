@@ -1,0 +1,78 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-spacer-1 {
+  flex: 0.2 1 auto;
+}
+
+.navbar_page {
+  left: 2px;
+  top: 56px;
+
+  height: 52px;
+  line-height: 20px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  // text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+
+
+ .logo {
+  margin-left: 65px;
+  color: #EE0000;
+  font-style: italic;
+ }
+
+ .search-bar{
+
+  .search-input{
+    .form-control{
+      width: 230%;
+      padding-left: 44px;
+      position: relative;
+      bottom: 10px;
+    }
+
+    span{
+
+      position: relative;
+      top: 19px;
+      left: 10px;
+      z-index: 2;
+      i{
+        color:  rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+ }
+
+ .loginRegisterBtns {
+  margin-right: 65px;
+
+  .settings-icon {
+    position: relative;
+    top: 17px;
+    right: -11px;
+    i{
+      color: #ffffff;
+    }
+  }
+
+  .registerBtn {
+    width: 35px;
+    height: 33px;
+    border-radius: 50%;
+    color: #EE0000;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    // font-family: $fontFamily2;
+    border: 1px solid #EE0000;
+    background-color: #ffffff;
+    font-weight: bold;
+    bottom: 9px;
+    right: -50px;
+  }
+ }
+}

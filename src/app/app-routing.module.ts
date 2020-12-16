@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
@@ -23,6 +24,10 @@ const routes: Routes = [
     path: 'verification',
     component: VerificationComponent
   },
+  {
+  path: 'header',
+  component: HeaderComponent
+  }
 ];
 
 @NgModule({

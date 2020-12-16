@@ -7,6 +7,7 @@ import { SharedModules } from './shared/shared-modules.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
+import { HeaderComponent } from './components/header/header.component';
 import { VerificationComponent } from './components/verification/verification.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { LandingComponent } from './components/landing/landing.component';
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     VerificationComponent,
     SignUpComponent,
-    LandingComponent
+    LandingComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

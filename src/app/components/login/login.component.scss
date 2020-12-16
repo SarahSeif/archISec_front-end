@@ -1,0 +1,133 @@
+.login_page {
+  background-color: #EBEBEB;
+}
+.above_page_line {
+  height: 10px;
+  background-color: #038eda;
+}
+
+.main_login_form {
+  position: relative;
+  height: 500px;
+  width: 600px;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  // bottom: 230px;
+  border-top: 4px solid #038eda;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0px 2px 6px 0px;
+  top: 100px;
+
+  .logo {
+    width: 100%;
+    img {
+      height: 135px;
+      width: 150px;
+    }
+    p {
+      margin-left: 28px;
+      margin-top: -27px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  .login_card {
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    background-color: #EEEEEE;
+    box-shadow: 0px 2px 6px 0px;
+    margin-top: 40px;
+
+    .login-form {
+      position: relative;
+      top: 45px;
+      left: 40px;
+
+      .emailContainer #InputEmail1, .passwordContainer #InputPassword1 {
+        width: 240px;
+        border: 0.25px solid;
+        height: 44px;
+      }
+
+      .emailContainer {
+        margin-top: 11px;
+
+        .emailRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 395px;
+          top: 12px;
+          color: red;
+        }
+      }
+
+      .passwordContainer {
+        margin-top: 30px;
+
+        .passRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 395px;
+          top: 85px;
+          color: red;
+        }
+      }
+
+      .buttonsContainter {
+        margin-top: 40px;
+      }
+
+      .buttonsContainter .loginBtn {
+        background-color: #038eda;
+        width: 115px;
+        height: 36px;
+        color: #ffffff;
+        font-weight: bold;
+        box-shadow: 0px 2px 6px #000000;
+      }
+
+      .buttonsContainter .forgetBtn {
+        background-color: #FFFFFF;
+        width: 115px;
+        height: 36px;
+        color: #000000;
+        font-weight: bold;
+        font-size: 11px;
+        margin-left: 10px;
+        border: 1px solid #038eda;
+        box-shadow: 0px 2px 6px #000000;
+      }
+
+    }
+
+
+    .rightDiv{
+      right: 45px;
+      top: 36px;
+
+      .lock-pic{
+        height: 150px;
+        width: 150px;
+        border-radius: 71px;
+      }
+    }
+
+  }
+}
+
+.page_footer{
+  position: fixed;
+  bottom: 0;
+  height: 385px;
+  width: 100%;
+  background-color: #C5C5C5;
+  z-index: 0;
+  // top: 450px;
+}

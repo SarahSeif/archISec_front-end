@@ -1,0 +1,252 @@
+.signup_page {
+  background-color: #c5c5c5;
+}
+.above_page_line {
+  height: 10px;
+  background-color: #038eda;
+}
+
+.main_signup {
+  position: relative;
+  height: 900px;
+  width: 700px;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 4px solid #038eda;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0px 2px 6px 0px;
+  margin-top: 200px;
+  bottom: 130px;
+
+  .logo_div {
+    width: 100%;
+    .logoPic {
+      height: 135px;
+      width: 150px;
+      margin-left: 15px;
+    }
+    .logoTxt {
+      margin-left: 45px;
+      margin-top: -27px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+
+  .signup-form {
+
+    .user-data-1 {
+      height: 135px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 430px;
+      background-color: #eeeeee;
+      box-shadow: 0px 2px 6px 0px;
+      z-index: 1;
+      position: relative;
+      margin-top: 20px;
+
+      .firstNameContainer {
+        #InputFName1 {
+          width: 140px;
+          margin-left: 37px;
+          margin-top: 20px;
+          height: 35px;
+        }
+
+        .fNameRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 150px;
+          top: 27px;
+          color: red;
+        }
+      }
+
+      .lastNameContainer {
+        margin-left: 10px;
+
+        #InputLName1 {
+          width: 140px;
+          margin-left: 40px;
+          margin-top: 20px;
+          height: 35px;
+        }
+
+        .lNameRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 147px;
+          top: 27px;
+          color: red;
+        }
+      }
+
+      .companyNameContainer {
+        .cNameRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 303px;
+          top: 27px;
+          color: red;
+        }
+        #InputCompany1 {
+          width: 344px;
+          margin-left: 37px;
+          margin-top: 20px;
+          height: 35px;
+        }
+      }
+    }
+
+    .user-data-2, .user-data-3 {
+      height: 120px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 430px;
+      background-color: #eeeeee;
+      box-shadow: 0px 2px 6px 0px;
+      z-index: 1;
+      position: relative;
+      margin-top: 20px;
+
+
+      .emailContainer, .passwordContainer {
+
+        #InputEmail1, #InputPassword1 {
+          width: 344px;
+          margin-left: 37px;
+          margin-top: 15px;
+          height: 35px;
+        }
+
+        .emailRequired, .passwordRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 303px;
+          top: 21px;
+          color: red;
+        }
+      }
+
+      .phoneContainer, .confirmPasswordContainer {
+
+        #InputPhone1, #InputCPassword1 {
+          width: 344px;
+          margin-left: 37px;
+          margin-top: 20px;
+          height: 35px;
+        }
+
+        .phoneRequired, .passwordRequired {
+          position: absolute;
+          font-size: 23px;
+          font-weight: bold;
+          right: 303px;
+          top: 27px;
+          color: red;
+        }
+      }
+
+    }
+
+    .user-data-4 {
+      height: 70px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 430px;
+      background-color: #eeeeee;
+      box-shadow: 0px 2px 6px 0px;
+      z-index: 1;
+      position: relative;
+      margin-top: 20px;
+
+      .robotDiv {
+        margin-left: 41px;
+        margin-top: 23px;
+
+        .checkBoxInput {
+          height: 16px;
+          width: 20px;
+        }
+
+        span {
+          position: relative;
+          left: 10px;
+          bottom: 3px;
+          font-weight: 500;
+        }
+
+      }
+
+      img {
+        width: 55px;
+        height: 55px;
+        margin-left: 55px;
+        margin-top: 6px;
+      }
+    }
+
+    .user-data-5 {
+      height: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 430px;
+      z-index: 1;
+      position: relative;
+      margin-top: 30px;
+      margin-left: 50px;
+      p {
+        font-size: 12px;
+        font-weight: bold;
+      }
+    }
+
+
+    .buttonsContainter {
+      margin-left: 120px;
+      margin-top: 12px;
+
+      .signupBtn {
+        background-color: #038eda;
+        width: 115px;
+        height: 36px;
+        color: #ffffff;
+        font-weight: bold;
+        box-shadow: 0px 2px 6px #000000;
+      }
+
+      .cancelBtn {
+        background-color: #FFFFFF;
+        width: 115px;
+        height: 36px;
+        color: #000000;
+        font-weight: bold;
+        margin-left: 15px;
+        border: 1px solid #038eda;
+        box-shadow: 0px 2px 6px #000000;
+      }
+    }
+
+  }
+
+  .rightDiv {
+    right: 50px;
+    top: 160px;
+
+    .signup-pic {
+      height: 180px;
+      width: 170px;
+      border-radius: 71px;
+    }
+  }
+
+  // }
+}

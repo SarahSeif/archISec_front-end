@@ -72,6 +72,8 @@ $thirdFont: 'Playfair Display-regular';
 
       .dropdown-menu {
         transform: translate3d(1px, 62px, 0px) !important;
+        min-height: 305px;
+        max-height: 305px;
 
         .row {
           margin-left: 0 !important;
@@ -422,6 +424,8 @@ $thirdFont: 'Playfair Display-regular';
     }
 
     .carousel-inner {
+      border-radius: 20px;
+
       .carousel-item .d-block {
         width: 100%;
         height: 470px;
@@ -429,6 +433,14 @@ $thirdFont: 'Playfair Display-regular';
 
       .carousel-item {
         font-family: $thirdFont;
+      }
+
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+      i {
+        font-size: 70px;
+        font-weight: bold;
       }
     }
 
@@ -607,6 +619,11 @@ $thirdFont: 'Playfair Display-regular';
         height: 90px;
         margin: 0 auto;
         display: flex;
+      }
+      
+      .fastPic {
+        font-size: 90px;
+        color: #4d4d4d;
       }
 
       .trust_title,
